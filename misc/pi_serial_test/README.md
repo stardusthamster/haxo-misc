@@ -46,7 +46,7 @@ The name of the serial port we want to write to and to read from is here /dev/tt
 Call the programm the following way 
 
 ```
-./pi_serial_test /dev/ttyAMA0 115200
+./pi_serial_test /dev/ttyS0 115200
 ```
 
 Write something in the ssh shell on the haxophone -> it will be displayed in cutecom
