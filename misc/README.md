@@ -6,11 +6,17 @@ The arduino should display the current soundfont used.
 
 The programs are written in Rust (so the logic can be integrated into the haxophone software)
 
-### Example 1: Pi Hello World
+### Step 1: Pi Hello World
 Used to set up the toolchain for cross compile
 
-### Example 2: Pi Serial Test
+### Step 2: Pi Serial Test
 Used to test the serial connection between haxophone and pc
+
+### Step 3: Pi Haxo Service for Switching Instruments
+In this project we create some scripts and different haxo.service config files. When we restart the haxo service with the file for flute for example, then the haxophone uses the flute sound and plays in C.
+
+### Step 4: Pi Haxo Service for Switching Instruments over Serial
+Using a modified version of step 2 we restart the haxophone service with another haxo.service config file, when a command is sent via serial
 
 ### Next steps
 My next steps are:
