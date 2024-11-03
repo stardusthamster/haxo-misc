@@ -8,7 +8,7 @@ This file replaces /etc/systemd/system/haxo.service
 
 I modified the haxo.service to use other startup parameters and replaced the original file with the file provided in this repository.
 
-The haxophone now uses the flute sound and transposes everything by an octave.
+The haxophone now uses the flute sound and uses the high C as key.
 
 
 ### notemap
